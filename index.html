@@ -3,50 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>A Propos de Moi</title>
 </head>
 <body>
-    <h1>RANDRIANAVALONA Livarijaona Harena :</h1>
-    
-    <p><strong>Audio :</strong></p>
-    <audio controls>
-        <source src="audios/audio.mp3" type="audio/mpeg">
-        Votre navigateur ne prend pas en charge l'élément audio.
-    </audio>
-    <br>
-    
-    <p><strong>Vidéo :</strong></p>
-    <video controls width="300">
-        <source src="videos/video.mp4" type="video/mp4">
-        Votre navigateur ne prend pas en charge la vidéo.
-    </video>
-    
-    <p><strong>Téléphone :</strong></p>
-    <a href="tel:+261343594496">Appeler le 034 35 944 96</a>
-
-    <p><strong>E-mail :</strong></p>
-    <a href="mailto:geit.harena@gmail.com">Envoyer un e-mail à geit.harena@gmail.com</a>
-    
-    <p><strong>Pour voir mes projets, visitez mon profil GitHub :</strong></p>
-    <a href="https://github.com/HarryJohnGeit" target="_blank">Mon GitHub</a>
-
-    <p><strong>Pour me suivre sur Facebook, cliquez ici :</strong></p>
-    <a href="https://web.facebook.com/livarijaona.randrianavalona/" target="_blank">Mon Facebook</a>
-
-    <h2>Formulaire de contact :</h2>
-    <form action="mailto:geit.harena@gmail.com" method="post">
-        <label for="name">Nom :</label><br>
-        <input type="text" id="name" name="name" required><br>
+    <div class="container">
+        <h1>RANDRIANAVALONA Livarijaona Harena</h1>
         
-        <label for="email">E-mail :</label><br>
-        <input type="email" id="email" name="email" required><br>
-        
-        <label for="message">Message :</label><br>
-        <textarea id="message" name="message" rows="4" cols="50" maxlength="160" required></textarea><br>
-        
-        <input type="submit" value="Envoyer">
-        <input type="reset" value="Réinitialiser">
-    </form>
-    
+        <div class="media-section">
+            <div class="media-item">
+                <p><strong>Audio :</strong></p>
+                <audio controls>
+                    <source src="audios/audio.mp3" type="audio/mpeg">
+                    Votre navigateur ne prend pas en charge l'élément audio.
+                </audio>
+            </div>
+            <div class="media-item">
+                <p><strong>Vidéo :</strong></p>
+                <video controls width="300">
+                    <source src="videos/video.mp4" type="video/mp4">
+                    Votre navigateur ne prend pas en charge la vidéo.
+                </video>
+            </div>
+        </div>
+
+        <div class="contact-info">
+            <p><strong>Téléphone :</strong></p>
+            <a href="tel:+261343594496">Appeler le 034 35 944 96</a>
+
+            <p><strong>E-mail :</strong></p>
+            <a href="mailto:geit.harena@gmail.com">Envoyer un e-mail à geit.harena@gmail.com</a>
+
+            <p><strong>Pour voir mes projets, visitez mon profil GitHub :</strong></p>
+            <a href="https://github.com/HarryJohnGeit" target="_blank">Mon GitHub</a>
+
+            <p><strong>Pour me suivre sur Facebook, cliquez ici :</strong></p>
+            <a href="https://web.facebook.com/livarijaona.randrianavalona/" target="_blank">Mon Facebook</a>
+        </div>
+
+        <h2>Formulaire de contact :</h2>
+        <form action="mailto:geit.harena@gmail.com" method="post" class="contact-form">
+            <label for="name">Nom :</label><br>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">E-mail :</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" maxlength="160" required></textarea><br>
+            
+            <div class="form-buttons">
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Réinitialiser">
+            </div>
+        </form>
+    </div>
 </body>
 </html>

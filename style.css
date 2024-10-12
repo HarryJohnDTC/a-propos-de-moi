@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #D46F4D;
+    color: #00353F;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFBF66;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #00353F;
+}
+
+.media-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+.media-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #430C05;
+    text-decoration: none;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.form-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.form-buttons input {
+    padding: 10px 20px;
+    background-color: #08C5D1;
+    color: #00353F;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-buttons input[type="reset"] {
+    background-color: #D46F4D;
+}
+
+
+audio, video {
+    background-color: #00353F; 
+    padding: 10px;
+    border-radius: 8px;
+    height: 170px;
+}
+
